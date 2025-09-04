@@ -9,3 +9,21 @@ console.log(timesDeFutebol[0]);
 //Imprima no console o nome do último time no array.
 console.log(timesDeFutebol[timesDeFutebol.length-1]);
 
+
+
+
+
+
+for(let i=0; i<preco.length; i++){
+    
+    console.log(preco[i]);
+}
+
+for(let i=0; i<preco.length; i++){
+    if(preco[i]%2 ===0){
+        console.log(`preco ${preco[i])};
+            }
+
+}
+
+export let total = 0;

@@ -1,5 +1,7 @@
 //Usando laços de repetição aninhados (um laço for dentro de outro), crie um programa que imprima as tabuadas de multiplicação do número 2 até o número 9.
 
+const { i, total } = require("./exercicio1");
+
 let tabuadas = [2,3,4,5,6,7,8,9];
 for (let i=0; i<tabuadas.length; i++){
 let numero = tabuadas[i];
@@ -23,4 +25,7 @@ if(k<10) linha += "|";
 
  }
 console.log(linha);
+};for (let i = 0; i < produtos.length; i++) {
+    total += produtos[i].preco;
 }
+
